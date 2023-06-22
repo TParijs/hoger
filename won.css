@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: rgb(54, 192, 0);
+}
+h1{
+    color: white;
+    background-image: url(/img/killer_queen_wallpaper_by_tenopis_dcqgep6-fullview.jpg);
+    font-size: 150px;
+    background-size: cover;
+    background-position: 100%;
+}
+img{
+    height: 600px;
+    position: fixed;
+}
+button{
+    height: 100px;
+    width: 200px;
+    background-color: gray;
+    float: left;
+}
