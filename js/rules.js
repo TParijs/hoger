@@ -5,7 +5,7 @@ btn.innerHTML = "Back";
 btn.onclick = function () {
 
  const result = confirm('Terug naar het begin?');
- if (result) { location.replace(`./index.html`)
+ if (result) { location.replace(`index.html`)
 }
 }
 

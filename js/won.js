@@ -5,7 +5,7 @@ btn.innerHTML = "Back";
 btn.onclick = function () {
 
  const result = confirm('Terug naar het spel?');
- if (result) { location.replace(`./game.html`)
+ if (result) { location.replace(`game.html`)
 }
 }
 

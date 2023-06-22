@@ -19,7 +19,7 @@ btn.innerHTML = "Rules";
 btn.onclick = function () {
 
     const result = confirm('Wilt u de regels weten?');
-    if (result) { location.replace(`./start.html`)
+    if (result) { location.replace(`start.html`)
 }
     
 
@@ -35,7 +35,7 @@ btn.innerHTML = "Start";
 btn.onclick = function () {
 
     const result = confirm('Wilt u beginnen?');
-    if (result) { location.replace(`./game.html`)
+    if (result) { location.replace(`game.html`)
 }
     
 

@@ -5,7 +5,7 @@ btn.innerHTML = "Back";
 btn.onclick = function () {
 
     const result = confirm('Terug naar het begin?');
-    if (result) { location.replace(`./index.html`)
+    if (result) { location.replace(`index.html`)
 }
 }
 
@@ -72,10 +72,10 @@ else {
 
 if (playerWin >= 3) {
     alert(`VICTORY`);
-    location.replace(`/won.html`)
+    location.replace(`won.html`)
 } else if (computerWin >= 3){
     alert(`DEFEAT`)
-    location.replace(`/defeat.html`)
+    location.replace(`defeat.html`)
 }
 
 console.log(playerRound);
